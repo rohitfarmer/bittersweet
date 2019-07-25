@@ -1,0 +1,26 @@
+name: bitter
+channels:
+  - r
+  - bioconda
+  - conda-forge
+  - rdkit
+  - mordred-descriptor
+dependencies:
+  - r=3.5.1
+  - rstudio
+  - python=3.7
+  - pip
+  - r-tidyverse
+  - r-essentials
+  - pandas
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - statsmodels
+  - jupyter
+  - tensorflow
+  - keras
+  - spyder
+  - mordred
+  - pyarrow
