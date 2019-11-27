@@ -1,8 +1,8 @@
 # Singularity
-.sif
+*.sif
 
 # Jupyter related
-.ipynb_checkpoints
+*.ipynb_checkpoints
 
 # Folders
 output

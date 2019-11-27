@@ -1,0 +1,11 @@
+# Open Babel
+apt install swig
+mkdir -p /tmp/openbabel
+cd /tmp/openbabel
+wget -O openbabel-3-0-0.tar.gz https://github.com/openbabel/openbabel/archive/openbabel-3-0-0.tar.gz
+tar zxf openbabel-3-0-0.tar.gz
+mkdir openbabel.build
+cd openbabel.build
+cmake ../openbabel-openbabel-3-0-0 -DPYTHON_EXECUTABLE=/usr/bin/python3 -DPYTHON_BINDINGS=ON -DRUN_SWIG=ON
+make -j $(nproc)
+make install
