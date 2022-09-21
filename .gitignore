@@ -1,8 +1,14 @@
+# User specific
+*.Rhistory
+.DS_Store
+*.Rproj
+
 # Singularity
 *.sif
 
 # Folders
 output
+data
 
 # Created by https://www.gitignore.io/api/r,vim,python,jupyternotebooks
 # Edit at https://www.gitignore.io/?templates=r,vim,python,jupyternotebooks
